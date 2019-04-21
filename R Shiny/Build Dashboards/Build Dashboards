@@ -1,0 +1,9 @@
+Two package options for building Shiny dashboards: flexdashboard and shinydashboard
+
+FLEXDASHBOARD
+1. Use R Markdown to publish a group of related data visualizations as a dashboard
+2. Support a wide variety of components
+3. Flexible and easy to specify row and colun-based layouts
+4. Offer storyboard layouts for presenting sequences
+5. Optionally use Shiny to drive visualizations dynamically
+
