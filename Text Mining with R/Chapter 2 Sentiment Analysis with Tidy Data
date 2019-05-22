@@ -1,0 +1,16 @@
+One way to analyze the sentiment of a text is to consider the text as a bombination of its individual words, and the sentiment content of the whole text as the sum of the sentiment content of the individual words
+
+Three general-purpose lexicons are AFINN, Bing, NRC. These lexicons contain many English words and the words are assinged scores for positive/negative sentiment, and also possibly emotions
+
+NRC lexicon categorizes words in a binary fashion into categories of positive, negative, anger, anticipation, disgust, fear, joy, sadness, surprise and trust
+
+Bing lexicon categorizes words in a binary fashion into positive and negative categories.
+
+AFINN lexicon assigns words with a score that runs between -5 and 5, with negative scores indicating negative sentiment and positive scores indicating positive seniment. 
+
+Sentiments were constructed via either crowdsourcing or by the labor of one of the authors, and were validated using some combination of crowdsourcing again, restaurant or moview reviews or Twitter data. 
+
+A lexicon-based method like these are based on unigrams only
+
+Size of the chunk of text that is used to add up unigram sentiment scores can have an effect on an analysis
+
