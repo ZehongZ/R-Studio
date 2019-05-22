@@ -1,0 +1,21 @@
+Tidy data has a specific structure:
+  Each variable is a column
+  Each observation is a row
+  Each type of observational unit is a table
+  
+Tidy text format is a table with one token per row
+
+A token is meaningful unit of text, such as word
+
+Tokenization is the process of splitting text into tokens
+
+The token that is tored in each row is most often a single word, but also can be n-gram, sentence, or paragraph
+
+String vs Corpus vs Document-term Matrix
+String: Text can be stored as strings and often text data is first read into memory in this form;
+Corpus: These types of objects typically contain raw strings annotated with additional metadata and details
+Document-term Matrix:
+This is a sparse matrix describing a collection of documents with one row for each doment and one column for each term. The value in the matrix is typically word count or tf-idf
+
+A tibble is a modern class of data frame that has convenient print method, will not convert strings to factors, and does not use row names
+
