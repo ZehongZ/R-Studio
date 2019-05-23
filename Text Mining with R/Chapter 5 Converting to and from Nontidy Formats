@@ -1,0 +1,18 @@
+Document-term matrix:
+1. Each row represents one document
+2. Each column represents one term
+3. Each value contains the number of appearances of that term in that document
+
+Since most pairings of document and term do not occur, DTMs are usually implemented as sparse matrices
+
+These objects can be treated as though they were matrices, but are sotred ina more efficient format
+
+DTM objects cannot be used directly with tidy tools
+
+cast_sparse(): converting to a sparse matrix from the Matrix package
+cast_dtm(): converting to a DocumentTermMatrix object from tm
+cast_dfm(): converting to a dfm object from quanteda
+
+Some data structures are designed to store document collections before tokenization, often called a "corpus"
+
+A Corpus object is structured like a list, with each item containing both text and medata. 

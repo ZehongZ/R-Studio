@@ -1,0 +1,14 @@
+Term frequency: quantify what a document is about
+Inverse document frequency: decreases the weight for commonly used words and increases the weight for words that are not used very much ina collection of documents
+
+The statistic if-idf is intended to measure how important a word is to a document ina collection of documents
+
+The idea of tf-idf is to find the important words for the content of each document by decreasing the weight for commonly used words and increasing the weight for words that not used very much in a collection of corpus of ducoments
+
+Types of long-tailed distributions are so common in any given corpus of natural language that the relationship between the frequency that a word is used and its rank has been the subject of study. A classic version of this relationship is called Zipf's law
+
+Zipf's law states that the frequency that a word appears is inversely proportional to its rank
+
+the bind_tf_idf function in the tidytext package takes a tidy text dataset as input with one row per token, per document. One column contains the terms/tokens, one column contains the documents, and the last necessary column tains the counts. idf thus tf-idf are zero for those extremly common words
+
+

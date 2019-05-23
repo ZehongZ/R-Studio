@@ -1,0 +1,13 @@
+token = "ngrams" argument which tokenizes by pairs of adjacent words rather than by individual ones
+
+widyr, newe package, calculates pairwise correlations and distances within a tidy data frame
+
+Pairs of consecutive words might capture structure that isn't present when one is just count single words, and may provide context that makes tokens more understandable
+
+However, the per-bigram counts are also sparser: a typical two-word pair is rarer than either of its component words. 
+
+Tidy data is a useful structure for comparing between variables or grouping by rows, but it can be challenging to compare between rows
+
+Most operations for finding pairwise counts or correlations need to turn the data into a wide matrix first
+
+Examine correlation among words, which indicates how often they appear together relative to how often they appear separately
