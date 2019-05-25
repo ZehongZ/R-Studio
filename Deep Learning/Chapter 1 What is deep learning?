@@ -1,0 +1,31 @@
+AI: the effort to automate intellectual tasks normally performaed by humans
+
+Machine learning: It is trained rather than explicitly programmed. It's presented with many examples relevant to a task, and it finds statistical structure in these examples that eventually allows the eystem to come up with rules for automating the task.
+
+Deep learning: a specific subfield of machine learning; a new take on learning representation from data that puts an emphasis on learning successive layers of increasingly meaningful representations
+
+Deep: it stands for this idea of successive layers of representations. How many layers contribute to a model of the data is called the depth of the model
+
+Shallow learning: learning only one or two layers
+
+Layered representations are learned via models called neural networks, structured in literal layers stacked on top of each other
+
+What a layer does to its input data is stored in the layer's weights, which in essence are a bunch of numbers. In technical terms, the transformation implemented by a layer is parametereized by its weights
+
+learing means finding a set of values for the weights of all layers in a network, such that the network will correctly map example inputs to their associated targets. 
+
+To control the output of a neural network, you need to be able to measure how far this output is from what you expected. This is job of the loss function of the network, also called the objective function. 
+
+The loss function takes the predictions of the network and the true target and computed a distance score, capturing how well the network has done on this specific example. The fundamental trick in deep learning is to use this score as a feedback signal to adjust the value of the weights a little, in a direction that will lower the loss score for the current example. 
+
+Initally the weights of the network are assigned random values, so the network merrely implements a series of random transformations. Naturally, its output is far from what it should ideally be, and the loss score is accordingly very high. But with every example the network processes, the weights are adjusted a little in the correct direction, and the loss score decreases. 
+
+Probabilisic modeling is the application of the principles of statistics to data analysis
+
+Backpropagation algorithm: a way to train chains of parametric operations using gradient-descent optimization
+
+Two seesntial characteriscs of how deep learning learns from data:
+1. The incremental, layer-by-layer way in which increasingly complex representations are developed
+2. The fact that these intermediate incremental representations are learned jointly, each layer being updated to folloe both the representational needs of the layer above and the needs of the layer below.
+
+

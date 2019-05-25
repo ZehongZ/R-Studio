@@ -1,0 +1,53 @@
+The core building block of neural networks is the layer, a data-processing module that you can think of as a filter for data
+
+3 things to make the network ready for training:
+1. Loss function: How the network will be able to measure its performance on the training data, and thus how it will be able to steer itself in the right direction
+2. Optimizer: The mechanism through which the network will update itself based on the data it sees and its loss function
+3. Metrics to monitor during training and testing: only for accuracy
+
+Compile(): modifiy the network in place
+
+Two quantities are displayed during training: the loss of the network over the training data, and the accuracy of the network over the training data
+
+Tensors: are a genreralization of vectors and matrices to an aribitrary number of dimensions.
+
+A tensor that contains only one number is called a scalar
+
+A one-dimensional array of numbers is called a vector, or 1D tensor. A 1D tensor is said to have exactly one axis.
+
+A two-dimensional array of numbers is a matrix, or 2D tensor.
+
+Tensor slicing: selecting specific elements in a tensor
+
+Vector data-2D tensors of shape
+Timeseries data or sequence data-3D tensors of shape
+Images-4D tensors of shape
+Video-5D tensors of shape
+
+All transformations learned by deep neural networks can be reduced to a handful of tensor operations applied to tensors of numeric data
+
+Element-wise operations:
+The relu operation and addition are element-wise operations. Operations that are applied independently to each entry in the tensors being considered. This means these operations are highly amenable to massively parallel implementations. 
+
+each neural layer transforms its input data as:
+output=relu(dot(W, input)+b)
+1.dot: a dot product between the input tensor and a tensor named W
+2. An addition(+) between the resulting 2D tensor and a vector b
+3. relu: a relu operation. relu(x) is max(x,0)
+4. w and b are tensors that are attributes of the     layer. They're called the weights or trainable      parameters of the layer.
+
+A much better approach is to take advantage of the fact that all operations used in the network are differentiable, and compute the gradient of the loss with regard to the network's coefficients. You can then move the coeeficients in the opposite direction from the gradient, thus decresing the loss. 
+
+Gradient: a gradient is the derivative of a tensor operation. It;s the generalization of the concept of derivatives to functions of multidimensional inputs; that is to functions that take tensors as inputs
+
+Given a differentiable function, it's theoretically possible to find its minimum analytical: it's known that a function's minimum is a point where the derivative is 0, so all you have to do is find all the points where the derivative goes to 0 and check for which of these points the function has the lowest value. Applied to a neural network, that mean finding analytically the combination of weight values that yields the smallest possible loss function.
+
+Stochastic: random
+
+Chain rule: f(g(x))=f'(g(x))*g'(x)
+Applying the chain rule to the computation of the gradient values of a neural network gives rise to an algorithm called Backpropagation. Backpropagtion starts with the final loss value and works backward from the top layers to th ebottom layers, applying the chain rule to compute the contribution that each parameter had in the loss value
+
+Symbolic differentiation: Given a chain of operations with a known derivative, they can compute a gradient function for the chain that maps network parameter value to gradient values
+
+
+
