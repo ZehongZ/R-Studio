@@ -1,0 +1,83 @@
+Convnet:
+1. layer_conv_2d
+2. layer_max_pooling
+3. Output of is a 3D tensor of shape (height, width, channels)
+4. The width and height dimensions tend to shrink as you go deeper in the network. 
+
+The fundamental difference between a densely connected layer and a convolution卷积 layer is dense layers learn global patterns in their input feature space, whereas convolution layers learn local patterns. 
+
+Two properties of convnets
+1. The patterns they learn are translation invariant. A densely connected network would have to learn the pattern anew if it appeared ata new location. This makes convnets data efficient when processing images: they need fewer training samples to learn representations that have genralization power.
+2. They can learn spatial hierarchies of patters.A first convolution layer will learn small local patterns, a second convolution layer will learn larger patterns made of the features of the first layers. This allows convnets to efficiently learn increasingly complex and abstract visual concpets.
+
+Convolutions operate over 3D tensors, called feature maps, with two spatial axes (height and width) as well as a depth axis (called the channels axis). 
+1.For an RGB image, the dimension of the depth axis is 3, because image has three color channels: red, green, blue
+2. For a black-and-white picture, the depth is 1 (levels of gray)
+
+The convolution operation extracts patches from its input feature map and applies the same transformation to all of these patches, producing an output feature map
+1. This output feature map is till a 3D tensor: it has a width and a height. Its depth can be arbitrary.
+2. Because the ouput depth is a parameter of the layer, and the different channels in that depth axis no longer stand for specific colors. Rather, they stand for filters.
+3. Filters encode specific aspects of the input data
+
+Convolutions are defined by two key parameters:
+1. Size of the patches extracted from the inputs. These are typically 3x3 or 5x5. 3x3 is a common choice
+2. Depth of the output feature map. The number of filters computed by the convolution 
+3. layer_conv_2d (output_depth, c(window_height, window_width))
+
+How concolution works
+1. A convolution works by sliding these windows of size 3x3 or 5x5 over the 3D input feature map, stopping at every possible location, and extracting the 3D patch of surrounding features. 
+2. Each such 3D patch is then transformed into a 1D vector of shape. 
+3. All of these vectors are then spatially reaseembled into a 3D output map of shape. 
+4. Every spatial location in the output feature map corresponds to the same location in the input feature map. (The lower-right corner of the output contains information about the lower-right corner of the input)
+5. Output width and height may differ from the input width and height
+a. Border effects, which can be countered by padding the input feature map
+b. The use of strides
+
+Padding: Padding consists of adding an appropriate number of rows and columns on each side of the input feature map to make it posisble to fit center convolution windows around every input tile. (For a 3x3 window, you add one column on the right, one column on the left, one row at the top and one row at the bottom.)
+
+Strides:The desciption of convolution so far has assumed thta the center tiles of the convolution windows are all contiguous. But the distance between two successive windows is a parameter of the convolution, which defaults to 1.
+
+It's possible to have strided convolutions: convolutons with a stride higher than 1. (Using stride 2 means the width and height of the feature map are downsampled by a factor of 2). Strided convolutions are rarely used in practice. 
+
+Max-pooling
+1. The role of max pooling is to aggressively downsample feature maps, much like strided convolutions
+2. Max pooling consists of extracting windows from the input feature maps and outputting the max value of each channel. 
+3. Instead of transforming local patches via a learned linear transformation, max pooling uses a hardcoded max tensor operation.
+4. Max pooling is usually done with 2x2 windows and stride 2 in order to downsample the feature maps by a factor of 2.
+
+Reason to use downsampling:
+1. reduce the number of feature-map coefficients to process
+2. induce spatial-filter hierarchies by making successive convolution layers look at increasingly large windows
+
+Data augmentation
+1. rotation_range is a value in degrees(0-180), a range within which to randomly rotate pictures
+2. width_shift and height_shift are ranges within which to randomly translate pictures vertically or horizontally
+3. shear_range is for randomly applying shearing transformation 
+4. zoom_range is for randomly zooming inside pictures
+5. horizontal_flip is for randomly flipping half the images horizontally-relevant when there are no assumptions of horizontal asymmetry
+6.fill_mode is the strategy used for filling in newly created pixels, which can appear after a rotateion or a width/height shift
+
+Pretrained network is a saved network that was previously trained on a large dataset, typically on a large-scale image-classification task. If this original dataset is large enough and general enough, then the spatial hierarchy of features learned by the pretrained network can effectively act as a generic model of the visual world, and hence its features can prove useful for many different computer vision problems, evnen though these new problems may involve completely different classes than those of the original task. 
+
+Feature extraction
+1. Feature extraction consists of using the representations learned by a previous network to extract interesting features from new samples. These features are then run through a new classifier, which is trained from scratch.
+2. In the case of convnets, feature extraction consists of taking the convolutional base of a previously trained network, running the new data throught it and training a new classifier on top of the output. 
+3. The representations learned by the convolutional base are likely to be more generic and therefore more reusable: the feature maps of a convnet are presence maps of generic concepts over a picture, which is likely to be useful regardless of the computer-vision problem at hand. But represtantions learned by the classifier will necessarily be specific to the set of classes on which the model was trained.
+4. Representations found in densely connected layers no longer contain any information about where objects are located in the input image.
+
+Layers that come earlier in the model extract local, highly generic feature maps (such as colors and textures), whereas layers that are higher up extract moreabstract concepts (such as "cat ear" or "dog eye"). 
+If your new dataset differs a lot from the dataset on which the original model was trained, you may be better of using only the first few layers of the model to do feature extraction, rather than using the entire convolutional base. 
+
+Convnets used for image classification comproise two parts
+1. Start with a series of pooling and convolution layers.The first part is called the convolutional base of the model. 
+2. They end with a densely connected classifier. 
+
+
+
+
+
+
+
+
+
+
