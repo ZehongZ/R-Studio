@@ -1,0 +1,65 @@
+Sequence-to-sequence learning: decode an English sentence into French
+
+Vectorizing text is the process of transforming text into numeric tensors. 
+1. Segment text into words, and transform each word into a vector
+2. Segment text into characters, and transform each character into a vector
+3. Extract n-grams of words or characters, and transform each n-gram into a vector. N-grams are overlapping groups of multiple consecutive words or characters.
+
+Word n-grams are groups of N (or fewer) consecutive words that you can extract from a sentence.
+
+Bag-of-words: The term bag here refers to the fact that you're dealing with a set of tokens rather than a list of sequence: the tokens have no specific order
+
+One-hot hashing trick:
+1.You can use when the number of unique tokens in your vocabulary is too large to handle explicitly.
+2.Instead of explicitly assigning an index to each word and keeping a reference of these indices in a dictionary, you can hash words into vectors of fixed size. 
+3.The main advantage of this method is that it does away with maintaining an explicit word index, which saves memory and allows online encoding of the data. 
+4.The one drawback of this approach is that it's susceptible ot hash collisions: two different words may end up with the same hash, and subsequently any machine-learning model looking at these hashes won't be able to tell the difference between these words. 
+
+Word embeddings
+1.Another popular and powerful way to associate a vector with a word is the use of dense word vectors
+2.Whereas the vectors obtained through one-hot encoding are binary, sparse, and very high-dimensional, word embeddings are low-dimensional floating-point vectors.
+3. one-hot encoding words generally leads to vectors that are 20,000-dimensional or greater.
+
+Two ways to obtain word embeddings
+1.Learn word embeddings jointly with the main task you care about. In this setup, you start with random word vectors and then learn word vectors in the same way you learn the weights of a neural network
+2.Load into your model word embeddings that were precomputed using a different machine-learning task then the one you're trying to solve. These are called pretrained word embeddings,
+
+Layer embedding
+1. The embedding layer takes at least two arguments: the number of possible tokens and the dimensionality of the embeddings
+
+Pretrained word embeddings
+1.You can load embedding vectors from a precomputed embedding space that you know is highly structured and exhibits useful properties that captures generic aspects of language structure. 
+2.You don't have enought data avaiable to learn truly powerful features on your own, but you expect the features that you need to be faily generic; that is common visual features or semantic features
+
+Warpping up
+1.Turn raw text into something a neural network can process
+2.Use an embedding layer in a Keras model to learn task-specific token embeddings
+3.Use pretrained word embeddings to get an extra boost on small natural-language-processing problems
+
+Feedforward networks
+Each input shown to them is processed independently, with no state kept in between inputs. With such networks, in order to process a sequence or a temporal series of data points, you have to show the entire sequence to the network at once: turn it into a single data point. Such networks are called feedforward networks. 
+
+Recurrent Neural Network (RNN)
+1.It processes sequences by iterating through the sequence elements and maintaining a state containing information relative to what is has seen so far
+2.An RNN is a type of neural network that has an internal loop. 
+3.The state of the RNN is reset between processing two different, independent sequences, so you still consider one sequence a single data point: a single input to the network. What changes is that this data point is no longer processed in a single step. Rather, the network internally loops over sequence elements
+4.In summary, an RNN is a for loop that reuses quantities computed during the previous iteration of the loop. 
+
+Issue with layer_simple_rnn
+1.Theoretically it should be able to retain at time t information about inputs seen many timesteps before. In practice, such long-term dependdcies are impossible to learn
+2.It's due to the vanishing gradient problem. An effect that is similar to what is observed with non-recurrent networks that are many layers deep: as you keep adding layers to a network, the network eventually becomes untrainable. 
+
+LTSM
+1.Long Short-Term Memory algorithm
+2.Information from the sequence can jump onto the convyor belt at any point, be transported to a later timestep, and jump off, intact when you need it.
+3.It saves information for later, thus preventing older signals from gradually vanishing during processing.
+4.It allows past information to be reinjected at a later time, thus fighting the vanishing-gradient problem
+
+Advanced Use of Recurrent Neural Networks
+1.Recurrent dropout: This is a specific, built-in way to use dropout to fight overfitting in recurrent layers
+2.Stacking recurrent layers: This increases the representational power of the network
+3.Bidirectional recurrent layers: These present the same information to a recurrent network in different ways, increasing accuracy and mitigating forgetting issues.
+
+Generator function
+1.A generator function is a special type of function that you call repeatedly to obtain a sequence of values
+
