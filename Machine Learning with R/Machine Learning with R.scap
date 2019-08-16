@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="5F1CA07F-D913-4FF2-80FC-BE8A201BB9DB">
+    <Notes>
+        <Note ID="0" FontSize="28.0" Position="333.766693,329.602966" Width="338.0">
+            <Appearance></Appearance>
+            <String>Machine Learning with R</String>
+            <ConnectedNoteIDs>1, 14, 19, 22, 46, 51-52, 61, 66, 69</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,23</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="713.766724,60.602974" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Concepts</String>
+            <ConnectedNoteIDs>0, 2-3, 8, 11</ConnectedNoteIDs>
+            <PointsToNoteIDs>2-3, 8, 11</PointsToNoteIDs>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="858.766724,23.602976" Width="190.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Machine Learning vs. Data Mining</String>
+            <ConnectedNoteIDs>1</ConnectedNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="887.251099,66.813911" Width="171.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>How Machine Learning Learns</String>
+            <ConnectedNoteIDs>1, 4-7</ConnectedNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="1192.215942,17.739695" Width="79.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Data Storage</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="1188.227661,45.696724" Width="69.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Abstraction</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="1189.110474,73.454536" Width="86.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Generalization</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="1192.844849,100.852974" Width="65.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Evaluation</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="869.348755,122.974068" Width="51.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Uniform</String>
+            <ConnectedNoteIDs>1, 9-10</ConnectedNoteIDs>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="957.840942,105.798286" Width="133.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Non-normal distribution</String>
+            <ConnectedNoteIDs>8</ConnectedNoteIDs>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="957.712036,144.571732" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Bars of histogram are the same heights</String>
+            <ConnectedNoteIDs>8</ConnectedNoteIDs>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="863.212036,210.52095" Width="107.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Chi-squared Value</String>
+            <ConnectedNoteIDs>1, 12-13</ConnectedNoteIDs>
+        </Note>
+        <Note ID="12" FontSize="12.0" Position="1157.844849,182.325638" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Refer to the cell’s contribution in the chi-squared test for independence between two variables</String>
+            <ConnectedNoteIDs>11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="1158.762817,245.642044" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>If the value is very low, it provides strong evidence that the two variables are associated</String>
+            <ConnectedNoteIDs>11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="629.032349,261.985779" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>KNN</String>
+            <ConnectedNoteIDs>0, 16, 18</ConnectedNoteIDs>
+            <PointsToNoteIDs>16, 18</PointsToNoteIDs>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="665.794067,200.200638" Width="161.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Classify unlabeled examples</String>
+            <ConnectedNoteIDs>14</ConnectedNoteIDs>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="734.255005,250.185013" Width="111.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Euclidean Distance</String>
+            <ConnectedNoteIDs>14</ConnectedNoteIDs>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="725.731567,388.278748" Width="76.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Naive Bayes</String>
+            <ConnectedNoteIDs>0, 20</ConnectedNoteIDs>
+            <PointsToNoteIDs>20</PointsToNoteIDs>
+        </Note>
+        <Note ID="20" FontSize="12.0" Position="877.161255,382.657654" Width="111.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Base on probability</String>
+            <ConnectedNoteIDs>19</ConnectedNoteIDs>
+        </Note>
+        <Note ID="22" FontSize="12.0" Position="724.766724,456.602966" Width="88.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Decision Trees</String>
+            <ConnectedNoteIDs>0, 23-24, 28, 31, 35</ConnectedNoteIDs>
+            <PointsToNoteIDs>23-24, 28, 31, 35</PointsToNoteIDs>
+        </Note>
+        <Note ID="23" FontSize="12.0" Position="924.555786,423.458435" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Tree structure to model the relationships</String>
+            <ConnectedNoteIDs>22</ConnectedNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="928.766724,482.602966" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Nodes</String>
+            <ConnectedNoteIDs>22, 25-27</ConnectedNoteIDs>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="1055.094849,452.669373" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Root</String>
+            <ConnectedNoteIDs>24</ConnectedNoteIDs>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="1049.415161,483.712341" Width="55.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Decision</String>
+            <ConnectedNoteIDs>24</ConnectedNoteIDs>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="1073.610474,511.298279" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Leaf</String>
+            <ConnectedNoteIDs>24</ConnectedNoteIDs>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="835.497192,534.770935" Width="119.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Recursive Partioning</String>
+            <ConnectedNoteIDs>22, 29</ConnectedNoteIDs>
+            <PointsToNoteIDs>29</PointsToNoteIDs>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="993.969849,540.431091" Width="115.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+            </Appearance>
+            <String>Divide and Conquer</String>
+            <ConnectedNoteIDs>28, 30</ConnectedNoteIDs>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="1181.630005,524.118591" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Split into subsets again and again until subsets are homogenous or meet stopping criterion</String>
+            <ConnectedNoteIDs>29</ConnectedNoteIDs>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="769.485474,578.989685" Width="105.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Stopping Criterion</String>
+            <ConnectedNoteIDs>22, 32-34</ConnectedNoteIDs>
+        </Note>
+        <Note ID="32" FontSize="12.0" Position="909.032349,594.138123" Width="71.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Same class</String>
+            <ConnectedNoteIDs>31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="33" FontSize="12.0" Position="919.735474,642.325623" Width="127.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>No remaining features</String>
+            <ConnectedNoteIDs>31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="34" FontSize="12.0" Position="744.126099,645.110779" Width="166.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Grow to predefined size limits</String>
+            <ConnectedNoteIDs>31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="552.157349,505.75531" Width="124.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Choose the Best Split</String>
+            <ConnectedNoteIDs>22, 36, 38</ConnectedNoteIDs>
+            <PointsToNoteIDs>36, 38</PointsToNoteIDs>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="516.376099,463.575623" Width="39.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Purity</String>
+            <ConnectedNoteIDs>35, 37, 40</ConnectedNoteIDs>
+            <PointsToNoteIDs>40</PointsToNoteIDs>
+        </Note>
+        <Note ID="37" FontSize="12.0" Position="420.354218,401.944824" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>The degree to which a subset of examples contains only a single class</String>
+            <ConnectedNoteIDs>36</ConnectedNoteIDs>
+        </Note>
+        <Note ID="38" FontSize="12.0" Position="631.856567,549.083435" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Pure</String>
+            <ConnectedNoteIDs>35, 39</ConnectedNoteIDs>
+        </Note>
+        <Note ID="39" FontSize="12.0" Position="566.08313,598.102966" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Subsets composed of only a single class</String>
+            <ConnectedNoteIDs>38</ConnectedNoteIDs>
+        </Note>
+        <Note ID="40" FontSize="12.0" Position="480.572632,517.17804" Width="50.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+            </Appearance>
+            <String>Entropy</String>
+            <ConnectedNoteIDs>36, 41-43</ConnectedNoteIDs>
+            <PointsToNoteIDs>43</PointsToNoteIDs>
+        </Note>
+        <Note ID="41" FontSize="12.0" Position="322.698456,541.241882" Width="128.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Measurement of purity</String>
+            <ConnectedNoteIDs>40</ConnectedNoteIDs>
+        </Note>
+        <Note ID="42" FontSize="12.0" Position="294.487518,579.67157" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>High Entropy provides little information</String>
+            <ConnectedNoteIDs>40</ConnectedNoteIDs>
+        </Note>
+        <Note ID="43" FontSize="12.0" Position="437.924866,603.693665" Width="97.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+            </Appearance>
+            <String>Information Gain</String>
+            <ConnectedNoteIDs>40</ConnectedNoteIDs>
+        </Note>
+        <Note ID="44" FontSize="12.0" Position="989.973755,572.102966" Width="130.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+            </Appearance>
+            <String>Separate and Conqure</String>
+            <ConnectedNoteIDs>45</ConnectedNoteIDs>
+        </Note>
+        <Note ID="45" FontSize="12.0" Position="1186.282349,590.552185" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Identify a rule that covers a subset of examples, then separating this partition from the remaining data</String>
+            <ConnectedNoteIDs>44</ConnectedNoteIDs>
+        </Note>
+        <Note ID="46" FontSize="12.0" Position="452.965912,244.231888" Width="69.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Regression</String>
+            <ConnectedNoteIDs>0, 47-49</ConnectedNoteIDs>
+            <PointsToNoteIDs>47-49</PointsToNoteIDs>
+        </Note>
+        <Note ID="47" FontSize="12.0" Position="480.868256,105.630318" Width="146.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Simple Linear Regression</String>
+            <ConnectedNoteIDs>46</ConnectedNoteIDs>
+        </Note>
+        <Note ID="48" FontSize="12.0" Position="315.743256,104.85688" Width="151.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Multiple Linear Regression</String>
+            <ConnectedNoteIDs>46</ConnectedNoteIDs>
+        </Note>
+        <Note ID="49" FontSize="12.0" Position="278.485443,186.759232" Width="118.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Mean Absolute Error</String>
+            <ConnectedNoteIDs>46, 50</ConnectedNoteIDs>
+        </Note>
+        <Note ID="50" FontSize="12.0" Position="122.422958,51.048286" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>How far, on average, its prediction was from the true value</String>
+            <ConnectedNoteIDs>49</ConnectedNoteIDs>
+        </Note>
+        <Note ID="51" FontSize="12.0" Position="796.294067,286.341248" Width="97.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Neural Networks</String>
+            <ConnectedNoteIDs>0</ConnectedNoteIDs>
+        </Note>
+        <Note ID="52" FontSize="12.0" Position="805.282349,339.602966" Width="137.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Support Vector Machine</String>
+            <ConnectedNoteIDs>0, 53-56</ConnectedNoteIDs>
+            <PointsToNoteIDs>53-56</PointsToNoteIDs>
+        </Note>
+        <Note ID="53" FontSize="12.0" Position="929.227661,258.610779" Width="76.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+            </Appearance>
+            <String>Hyperplanes</String>
+            <ConnectedNoteIDs>52</ConnectedNoteIDs>
+        </Note>
+        <Note ID="54" FontSize="12.0" Position="972.075317,286.227966" Width="94.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Support Vectors</String>
+            <ConnectedNoteIDs>52</ConnectedNoteIDs>
+        </Note>
+        <Note ID="55" FontSize="12.0" Position="1003.110474,314.274841" Width="165.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Maximum Margin Hyperplane</String>
+            <ConnectedNoteIDs>52</ConnectedNoteIDs>
+        </Note>
+        <Note ID="56" FontSize="12.0" Position="1014.282349,347.602966" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Non-linear</String>
+            <ConnectedNoteIDs>52, 57-58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="57" FontSize="12.0" Position="1191.282349,337.602966" Width="83.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Slack variable</String>
+            <ConnectedNoteIDs>56</ConnectedNoteIDs>
+        </Note>
+        <Note ID="58" FontSize="12.0" Position="1193.282349,379.602966" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Kernel</String>
+            <ConnectedNoteIDs>56, 59-60</ConnectedNoteIDs>
+        </Note>
+        <Note ID="59" FontSize="12.0" Position="1326.637817,343.927185" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>The kernel trick involves a process of constructing new features that express mathematical relationships between measured characteristics</String>
+            <ConnectedNoteIDs>58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="60" FontSize="12.0" Position="1327.376099,430.950623" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Add additional dimensions to the data in order to create linear separation</String>
+            <ConnectedNoteIDs>58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="61" FontSize="12.0" Position="221.477646,283.563904" Width="98.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Association Rule</String>
+            <ConnectedNoteIDs>0, 62-64</ConnectedNoteIDs>
+            <PointsToNoteIDs>62-64</PointsToNoteIDs>
+        </Note>
+        <Note ID="62" FontSize="12.0" Position="155.653427,220.267044" Width="96.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Apriori algorithm</String>
+            <ConnectedNoteIDs>61</ConnectedNoteIDs>
+        </Note>
+        <Note ID="63" FontSize="12.0" Position="126.087929,282.536072" Width="54.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Support </String>
+            <ConnectedNoteIDs>61, 65</ConnectedNoteIDs>
+        </Note>
+        <Note ID="64" FontSize="12.0" Position="186.934509,316.050873" Width="69.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Confidence</String>
+            <ConnectedNoteIDs>61, 65</ConnectedNoteIDs>
+        </Note>
+        <Note ID="65" FontSize="12.0" Position="5.822474,351.703461" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Strong Rule: High support and confidence</String>
+            <ConnectedNoteIDs>63-64</ConnectedNoteIDs>
+        </Note>
+        <Note ID="66" FontSize="12.0" Position="177.922867,432.029755" Width="63.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Clustering</String>
+            <ConnectedNoteIDs>0, 67</ConnectedNoteIDs>
+            <PointsToNoteIDs>67</PointsToNoteIDs>
+        </Note>
+        <Note ID="67" FontSize="12.0" Position="79.0,449.0" Width="57.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+            </Appearance>
+            <String>K-means</String>
+            <ConnectedNoteIDs>66, 68</ConnectedNoteIDs>
+        </Note>
+        <Note ID="68" FontSize="12.0" Position="22.0,417.0" Width="82.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Unsupervised</String>
+            <ConnectedNoteIDs>67</ConnectedNoteIDs>
+        </Note>
+        <Note ID="69" FontSize="12.0" Position="186.112701,477.309998" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Performance Measurement for Classification</String>
+            <ConnectedNoteIDs>0, 70-74</ConnectedNoteIDs>
+            <PointsToNoteIDs>70-74</PointsToNoteIDs>
+        </Note>
+        <Note ID="70" FontSize="12.0" Position="5.32131,479.610046" Width="99.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Confusion Matrix</String>
+            <ConnectedNoteIDs>69</ConnectedNoteIDs>
+        </Note>
+        <Note ID="71" FontSize="12.0" Position="12.051529,527.181519" Width="89.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Kappa Statistic</String>
+            <ConnectedNoteIDs>69</ConnectedNoteIDs>
+        </Note>
+        <Note ID="72" FontSize="12.0" Position="3.952294,570.402405" Width="131.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Sensitivity &amp; Specificity</String>
+            <ConnectedNoteIDs>69</ConnectedNoteIDs>
+        </Note>
+        <Note ID="73" FontSize="12.0" Position="47.491356,628.331116" Width="106.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Precision &amp; Recall</String>
+            <ConnectedNoteIDs>69</ConnectedNoteIDs>
+        </Note>
+        <Note ID="74" FontSize="12.0" Position="152.709946,676.552856" Width="67.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>F-measure</String>
+            <ConnectedNoteIDs>69</ConnectedNoteIDs>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <AutoFit>0-9, 11, 14, 16, 18-20, 22, 24-29, 31-36, 38, 40-41, 43-44, 46-49, 51-58, 61-64, 66-68, 70-74</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="849C15A0-95E0-4F79-90B1-27745BAC2621" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="9DFE6E59-DB79-4B16-9258-B23C8C506EB1" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="C99605E9-DA06-4CB8-9A1F-3C91D24425AD" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="6C7F2363-6C0B-4C4F-9B24-8CA776487D99" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="178C3770-8C14-4A60-91A7-6A3A19AF4282" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="19B968B4-19B1-4798-B21F-609470FD1DDD" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985948 0.0 0.026951</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="C740FB6B-D68C-4F7A-BB8F-48212B5979CD" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999767 0.98837 0.949907</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+    </UISettings>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
