@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="05314D00-D42D-43C2-967D-3D4D472F69E2">
+    <Notes>
+        <Note ID="0" FontSize="28.0" Position="27.851562,320.839844" Width="203.0">
+            <Appearance></Appearance>
+            <String>Deep Learning</String>
+            <ConnectedNoteIDs>2-3</ConnectedNoteIDs>
+            <PointsToNoteIDs>2-3</PointsToNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,13</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="98.488281,244.425781" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Concepts</String>
+            <ConnectedNoteIDs>0</ConnectedNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="145.964844,419.695312" Width="123.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Structure of a Neuron</String>
+            <ConnectedNoteIDs>0, 4-7, 23</ConnectedNoteIDs>
+            <PointsToNoteIDs>7, 23</PointsToNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="52.703125,404.289062" Width="60.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Dendrites</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="41.882812,445.390625" Width="60.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Cell Body</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="44.503906,490.976562" Width="90.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Axon Terminals</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="321.175781,421.441406" Width="174.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>How Do Neural Networks Work</String>
+            <ConnectedNoteIDs>3, 9, 14-15, 32, 36</ConnectedNoteIDs>
+            <PointsToNoteIDs>32, 36</PointsToNoteIDs>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="272.285156,501.070312" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Layers</String>
+            <ConnectedNoteIDs>7, 16, 28-29</ConnectedNoteIDs>
+            <PointsToNoteIDs>16</PointsToNoteIDs>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="341.835938,510.726562" Width="114.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Weights and Biases</String>
+            <ConnectedNoteIDs>7, 16</ConnectedNoteIDs>
+            <PointsToNoteIDs>16</PointsToNoteIDs>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="473.933594,506.550781" Width="116.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Activation Functions</String>
+            <ConnectedNoteIDs>7, 16, 18-22</ConnectedNoteIDs>
+            <PointsToNoteIDs>16</PointsToNoteIDs>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="366.378906,606.070312" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Epoch</String>
+            <ConnectedNoteIDs>9, 14-15, 17</ConnectedNoteIDs>
+        </Note>
+        <Note ID="17" FontSize="12.0" Position="304.609375,657.773438" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>A full run of feed-forward and backpropagation</String>
+            <ConnectedNoteIDs>16</ConnectedNoteIDs>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="616.019531,517.589844" Width="42.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Linear</String>
+            <ConnectedNoteIDs>15</ConnectedNoteIDs>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="619.457031,569.894531" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Unit Step</String>
+            <ConnectedNoteIDs>15</ConnectedNoteIDs>
+        </Note>
+        <Note ID="20" FontSize="12.0" Position="606.0625,616.667969" Width="52.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Sigmoid</String>
+            <ConnectedNoteIDs>15</ConnectedNoteIDs>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="557.570312,657.917969" Width="111.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Hyperbolic Tangent</String>
+            <ConnectedNoteIDs>15</ConnectedNoteIDs>
+        </Note>
+        <Note ID="22" FontSize="12.0" Position="475.878906,706.296875" Width="159.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+            </Appearance>
+            <String>Rectified Linear Unit (ReLU)</String>
+            <ConnectedNoteIDs>15</ConnectedNoteIDs>
+        </Note>
+        <Note ID="23" FontSize="12.0" Position="323.421875,357.539062" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Perceptron and Multiplayer Architectures</String>
+            <ConnectedNoteIDs>3, 24-25, 51</ConnectedNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="412.339844,261.582031" Width="174.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>A perceptron is a single neuron</String>
+            <ConnectedNoteIDs>23, 52</ConnectedNoteIDs>
+            <PointsToNoteIDs>52</PointsToNoteIDs>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="529.511719,314.410156" Width="195.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Layers of perceptron are combined</String>
+            <ConnectedNoteIDs>23, 26</ConnectedNoteIDs>
+            <PointsToNoteIDs>26</PointsToNoteIDs>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="643.078125,253.480469" Width="133.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Multilayer Architectures</String>
+            <ConnectedNoteIDs>25, 44</ConnectedNoteIDs>
+            <PointsToNoteIDs>44</PointsToNoteIDs>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="58.617188,552.257812" Width="121.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Forward Propagation</String>
+            <ConnectedNoteIDs>9, 30</ConnectedNoteIDs>
+            <PointsToNoteIDs>30</PointsToNoteIDs>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="215.292969,560.992188" Width="103.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Back Propagation</String>
+            <ConnectedNoteIDs>9, 30</ConnectedNoteIDs>
+            <PointsToNoteIDs>30</PointsToNoteIDs>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="118.777344,619.082031" Width="102.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+            </Appearance>
+            <String>Gradient Descent</String>
+            <ConnectedNoteIDs>28-29, 31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="21.28125,639.765625" Width="84.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Learning Rate</String>
+            <ConnectedNoteIDs>30</ConnectedNoteIDs>
+        </Note>
+        <Note ID="32" FontSize="12.0" Position="689.976562,445.429688" Width="146.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Types of Neural Networks</String>
+            <ConnectedNoteIDs>7, 33-35, 40, 53</ConnectedNoteIDs>
+            <PointsToNoteIDs>53</PointsToNoteIDs>
+        </Note>
+        <Note ID="33" FontSize="12.0" Position="880.03125,566.507812" Width="139.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Adaptive Linear Element</String>
+            <ConnectedNoteIDs>32</ConnectedNoteIDs>
+        </Note>
+        <Note ID="34" FontSize="12.0" Position="762.464844,519.574219" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Multiple ADALNE</String>
+            <ConnectedNoteIDs>32</ConnectedNoteIDs>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="632.886719,485.300781" Width="153.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Recurrent Neural Networks</String>
+            <ConnectedNoteIDs>32</ConnectedNoteIDs>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="521.203125,367.726562" Width="267.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Neural Network Learning Algorithm Optimization</String>
+            <ConnectedNoteIDs>7, 37-39</ConnectedNoteIDs>
+        </Note>
+        <Note ID="37" FontSize="12.0" Position="779.085938,303.070312" Width="155.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Particle Swam Optimization</String>
+            <ConnectedNoteIDs>36</ConnectedNoteIDs>
+        </Note>
+        <Note ID="38" FontSize="12.0" Position="851.0,348.0" Width="118.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Simulated Annealing</String>
+            <ConnectedNoteIDs>36</ConnectedNoteIDs>
+        </Note>
+        <Note ID="39" FontSize="12.0" Position="844.894531,396.875" Width="145.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Expectation Maximization</String>
+            <ConnectedNoteIDs>36</ConnectedNoteIDs>
+        </Note>
+        <Note ID="40" FontSize="12.0" Position="906.574219,501.40625" Width="132.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Unsupervised Learning</String>
+            <ConnectedNoteIDs>32, 41-42</ConnectedNoteIDs>
+        </Note>
+        <Note ID="41" FontSize="12.0" Position="1097.921875,527.59375" Width="122.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Competitive Learning</String>
+            <ConnectedNoteIDs>40</ConnectedNoteIDs>
+        </Note>
+        <Note ID="42" FontSize="12.0" Position="1062.640625,578.257812" Width="87.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Kononen SOM</String>
+            <ConnectedNoteIDs>40</ConnectedNoteIDs>
+        </Note>
+        <Note ID="44" FontSize="12.0" Position="834.671875,251.585938" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>DNNs</String>
+            <ConnectedNoteIDs>26, 46</ConnectedNoteIDs>
+            <PointsToNoteIDs>46</PointsToNoteIDs>
+        </Note>
+        <Note ID="46" FontSize="12.0" Position="935.0,254.0" Width="89.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Types of DNNs</String>
+            <ConnectedNoteIDs>44, 47-50, 58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="47" FontSize="12.0" Position="987.878906,165.847656" Width="118.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Deep Belief Network</String>
+            <ConnectedNoteIDs>46</ConnectedNoteIDs>
+        </Note>
+        <Note ID="48" FontSize="12.0" Position="1050.945312,202.882812" Width="171.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Restricted Boltzmann Machine</String>
+            <ConnectedNoteIDs>46</ConnectedNoteIDs>
+        </Note>
+        <Note ID="49" FontSize="12.0" Position="1122.101562,246.171875" Width="147.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Recurrent Neural Network</String>
+            <ConnectedNoteIDs>46</ConnectedNoteIDs>
+        </Note>
+        <Note ID="50" FontSize="12.0" Position="1178.539062,292.660156" Width="149.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Long-short Term Memeory</String>
+            <ConnectedNoteIDs>46</ConnectedNoteIDs>
+        </Note>
+        <Note ID="51" FontSize="12.0" Position="237.308594,257.375" Width="127.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Multi-class Perceptron</String>
+            <ConnectedNoteIDs>23, 52</ConnectedNoteIDs>
+            <PointsToNoteIDs>52</PointsToNoteIDs>
+        </Note>
+        <Note ID="52" FontSize="12.0" Position="328.390625,192.144531" Width="153.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Linear Separable Classifier</String>
+            <ConnectedNoteIDs>24, 51</ConnectedNoteIDs>
+        </Note>
+        <Note ID="53" FontSize="12.0" Position="952.0,446.0" Width="96.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Avoid Overfitting</String>
+            <ConnectedNoteIDs>32, 54-57</ConnectedNoteIDs>
+        </Note>
+        <Note ID="54" FontSize="12.0" Position="1027.476562,389.65625" Width="87.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Early Stopping</String>
+            <ConnectedNoteIDs>53</ConnectedNoteIDs>
+        </Note>
+        <Note ID="55" FontSize="12.0" Position="1112.984375,414.003906" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Regularization</String>
+            <ConnectedNoteIDs>53</ConnectedNoteIDs>
+        </Note>
+        <Note ID="56" FontSize="12.0" Position="1150.242188,454.96875" Width="128.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Max Norm Constraints</String>
+            <ConnectedNoteIDs>53</ConnectedNoteIDs>
+        </Note>
+        <Note ID="57" FontSize="12.0" Position="1090.925781,481.453125" Width="61.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Dropout</String>
+            <ConnectedNoteIDs>53</ConnectedNoteIDs>
+        </Note>
+        <Note ID="58" FontSize="12.0" Position="1010.101562,339.691406" Width="173.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Convolutional Neural Networks</String>
+            <ConnectedNoteIDs>46, 59-62</ConnectedNoteIDs>
+            <PointsToNoteIDs>59-62</PointsToNoteIDs>
+        </Note>
+        <Note ID="59" FontSize="12.0" Position="1235.714844,322.371094" Width="81.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Convolutional</String>
+            <ConnectedNoteIDs>58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="60" FontSize="12.0" Position="1245.050781,347.121094" Width="49.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Pooling</String>
+            <ConnectedNoteIDs>58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="61" FontSize="12.0" Position="1281.617188,374.714844" Width="133.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>ReLU for Normalization</String>
+            <ConnectedNoteIDs>58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="62" FontSize="12.0" Position="1242.921875,401.246094" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Voting and classification in the fully connected layers</String>
+            <ConnectedNoteIDs>58</ConnectedNoteIDs>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <AutoFit>0, 2-7, 9, 14-16, 18-22, 24-26, 28-35, 37-42, 44, 46-56, 58-61</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="A8FFDD8D-6A75-4632-958C-34172344CE23" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="E06DBDB0-85C6-4A98-AAE0-ED60500651D7" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="904543C0-0BE1-462E-97B8-9EA4A9614B77" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="3E85899D-8A6D-48C1-A230-86AEAE58637F" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="F99D499C-BDF6-4E03-85BE-D80DC4545CE2" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="3F8FFE56-2369-4BD1-BC57-E2DEF7F3D57F" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985948 0.0 0.026951</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="8170F2C6-924F-4230-AEA9-5A844240EC86" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999767 0.98837 0.949907</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+    </UISettings>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
