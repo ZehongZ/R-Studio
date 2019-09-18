@@ -1,0 +1,3683 @@
+{
+  "rightNumber" : 3,
+  "style" : {
+    "lineColor" : "{172, 215, 123, 1.00}",
+    "fontName" : "Avenir Next",
+    "fontStyle" : "normal",
+    "fontWeight" : "normal",
+    "fontFamily" : "Avenir Next"
+  },
+  "skeletonTheme" : {
+    "name" : "branch-taperedline",
+    "palette" : [
+
+    ],
+    "topicStyleForMain" : {
+      "lineType" : 0,
+      "topicShape" : 1,
+      "lineWidth" : 4
+    },
+    "topicStyleForSubtopic" : {
+      "lineType" : 0,
+      "topicShape" : 1,
+      "lineWidth" : 2
+    },
+    "mapStyle" : {
+      "taperedLine" : true
+    },
+    "topicStyleForCentral" : {
+      "lineType" : 0,
+      "topicShape" : 0,
+      "lineWidth" : 4
+    },
+    "topicStyleForFloating" : {
+      "lineType" : 0,
+      "topicShape" : 1,
+      "lineWidth" : 4
+    },
+    "relationshipStyle" : {
+      "lineWidth" : 3
+    }
+  },
+  "id" : "AA047AF0-8963-45D7-AC6B-303E4C7D9441-4160-00001CE5C4B700B3",
+  "updateTime" : 1566848184.2704711,
+  "colorTheme" : {
+    "name" : "blackboard",
+    "palette" : [
+      "{172, 215, 123, 1.00}",
+      "{244, 151, 143, 1.00}",
+      "{237, 184, 237, 1.00}",
+      "{235, 186, 128, 1.00}",
+      "{120, 201, 237, 1.00}",
+      "{143, 231, 214, 1.00}"
+    ],
+    "topicStyleForMain" : {
+      "lineType" : 2,
+      "lineWidth" : 5,
+      "fontStyle" : "normal",
+      "fontWeight" : "normal",
+      "topicMargin" : "{16, 6}",
+      "topicShape" : 1,
+      "fontColor" : "{241, 241, 241, 1.00}",
+      "lineColor" : "{172, 215, 123, 1.00}",
+      "fillColor" : "{51, 51, 51, 1.00}",
+      "fontName" : "Chalkduster",
+      "cornerRadius" : 8,
+      "fontFamily" : "Chalkduster"
+    },
+    "topicStyleForSubtopic" : {
+      "lineType" : 2,
+      "lineWidth" : 5,
+      "fontStyle" : "normal",
+      "fontWeight" : "normal",
+      "topicMargin" : "{6, 6}",
+      "topicShape" : 1,
+      "fontColor" : "{241, 241, 241, 1.00}",
+      "lineColor" : "{172, 215, 123, 1.00}",
+      "fillColor" : "{51, 51, 51, 1.00}",
+      "fontName" : "Chalkduster",
+      "cornerRadius" : 8,
+      "fontFamily" : "Chalkduster"
+    },
+    "mapStyle" : {
+      "fillColor" : "{51, 51, 51, 1.00}",
+      "lineType" : 0
+    },
+    "topicStyleForCentral" : {
+      "lineType" : 1,
+      "lineWidth" : 7,
+      "fontStyle" : "normal",
+      "fontWeight" : "normal",
+      "topicMargin" : "{28, 16}",
+      "topicShape" : 0,
+      "fontColor" : "{241, 241, 241, 1.00}",
+      "lineColor" : "{172, 215, 123, 1.00}",
+      "fillColor" : "{51, 51, 51, 1.00}",
+      "fontName" : "Chalkduster",
+      "cornerRadius" : 12,
+      "fontFamily" : "Chalkduster"
+    },
+    "topicStyleForFloating" : {
+      "lineType" : 2,
+      "lineWidth" : 5,
+      "fontStyle" : "normal",
+      "fontWeight" : "normal",
+      "topicMargin" : "{16, 6}",
+      "topicShape" : 1,
+      "fontColor" : "{241, 241, 241, 1.00}",
+      "lineColor" : "{172, 215, 123, 1.00}",
+      "fillColor" : "{51, 51, 51, 1.00}",
+      "fontName" : "Chalkduster",
+      "cornerRadius" : 8,
+      "fontFamily" : "Chalkduster"
+    },
+    "relationshipStyle" : {
+      "lineWidth" : 3,
+      "lineColor" : "{255, 140, 68, 1.00}"
+    }
+  },
+  "rootTopic" : {
+    "detach" : false,
+    "style" : {
+      "fontStyle" : "normal",
+      "fontName" : "Avenir Next",
+      "fontWeight" : "normal",
+      "fontFamily" : "Avenir Next",
+      "enablePalette" : true
+    },
+    "folded" : false,
+    "id" : "7741AE31-8205-456E-AE3B-F976094C4697-4160-00001CE5C4CCECE5",
+    "checkList" : false,
+    "title" : "Central Topic",
+    "position" : "{0, 0}",
+    "note" : {
+
+    },
+    "highlight" : false,
+    "subtopics" : [
+      {
+        "detach" : false,
+        "style" : {
+          "lineColor" : "{172, 215, 123, 1.00}",
+          "fontName" : "Avenir Next",
+          "fontStyle" : "normal",
+          "fontWeight" : "normal",
+          "fontFamily" : "Avenir Next",
+          "enablePalette" : true
+        },
+        "folded" : false,
+        "id" : "3D9194B6-FDB0-4D1F-B623-383D9F0F9D96-4160-00001D037C332B9F",
+        "checkList" : false,
+        "title" : "Chapter #1",
+        "position" : "{0, 0}",
+        "note" : {
+
+        },
+        "highlight" : false,
+        "subtopics" : [
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "A6DE4336-A240-4387-B702-3881B6378FFE-4160-00001D116EE0278B",
+            "checkList" : false,
+            "title" : "AI",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "D4C980A6-66A5-4E49-BA45-9D36BD66B87D-4160-00001D13C2F5D206",
+            "checkList" : false,
+            "title" : "ML",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "E6F8C031-E276-4D5A-B277-8CB7E3A55E1A-4160-00001D14FDAF345E",
+            "checkList" : false,
+            "title" : "DL",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "B528CDBF-36A4-4E2C-8C1F-7179891BC9D5-4160-00001D1C613B3536",
+                "checkList" : false,
+                "title" : "How DL Works",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "B4B3B83E-76FA-46AE-A9D9-BAF446C1C330-4160-00001D241C62BDE2",
+                    "checkList" : false,
+                    "title" : "What Makes Deep Learning Different",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "5A0076AA-6401-463E-91AD-BF7479085F1D-4160-00001D39AA97D158",
+                    "checkList" : false,
+                    "title" : "Gradient Boosting for structured data available problem",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "09255204-D715-4E03-B6B6-52DC918E439E-4160-00001D4FED267E71",
+                    "checkList" : false,
+                    "title" : "Deep Learning for perceptual problems",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          }
+        ],
+        "checkboxStatus" : 0
+      },
+      {
+        "detach" : false,
+        "style" : {
+          "lineColor" : "{172, 215, 123, 1.00}",
+          "fontName" : "Avenir Next",
+          "fontStyle" : "normal",
+          "fontWeight" : "normal",
+          "fontFamily" : "Avenir Next",
+          "enablePalette" : true
+        },
+        "folded" : false,
+        "id" : "EDD455C6-BBAE-452C-A8E0-E9858F212D18-4160-00001D0554222855",
+        "checkList" : false,
+        "title" : "Chapter #2",
+        "position" : "{0, 0}",
+        "note" : {
+
+        },
+        "highlight" : false,
+        "subtopics" : [
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "A977D749-7B3A-40AB-8EED-D3C9396CDDD8-4160-00001D5E1825B955",
+            "checkList" : false,
+            "title" : "Consist of Neural Network",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "DAD07EF3-B3B2-4B3E-8D12-3321DB5B94B0-4160-00001D61B7439CB0",
+                "checkList" : false,
+                "title" : "Layer",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "E0C38FBD-B05A-4332-861D-311C6C59187C-4160-00001D62784311E9",
+                "checkList" : false,
+                "title" : "Neural layer",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "B88CDF94-9828-4197-9C1E-606D84C626B6-4160-00001D64636AE734",
+                "checkList" : false,
+                "title" : "Softmax layer",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "B0F1963C-229F-4532-AE9A-9B39F7E368EF-4160-00001D66822C88F1",
+                "checkList" : false,
+                "title" : "Loss function",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "1287A7C0-B41A-45D0-9D1E-3E98C453A9C0-4160-00001D680784C9B9",
+                "checkList" : false,
+                "title" : "Optimizer",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "AD0A6A84-93BD-4C43-942C-1982FD2A7C4A-4160-00001D6907500686",
+                "checkList" : false,
+                "title" : "Metrics",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "8896949B-D2F6-46CA-83EB-DF6945EEE57E-4160-00001D6CCD8BB5B9",
+            "checkList" : false,
+            "title" : "Tensors",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "E75325F8-BDA6-43C0-BB16-C1B20A5A034E-4160-00001D6E0A67FA42",
+                "checkList" : false,
+                "title" : "Scalars",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "04B98D95-C4AD-4139-8BEB-DD260A0BB079-4160-00001D78A05447C6",
+                    "checkList" : false,
+                    "title" : "0D Tensors",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "6654932C-6CDF-46B7-BED4-141E15F9D29D-4160-00001D7A0D78ED66",
+                    "checkList" : false,
+                    "title" : "Only 1 number",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "AEDDD6C8-7897-4CA2-B4E0-CCE5C29A1201-4160-00001D7BF7655AF1",
+                "checkList" : false,
+                "title" : "Vectors",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "45A80FF3-209A-4B80-9493-5EB0895BDB1A-4160-00001D7D461F3243",
+                    "checkList" : false,
+                    "title" : "1D Tensors",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "7A01BB8C-3E12-4D8E-BC62-6761A86748A9-4160-00001D7EDD7825F0",
+                    "checkList" : false,
+                    "title" : "One-dimensional",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "B87790FF-D404-4F13-90DF-028143D11C01-4160-00001D80E172631F",
+                "checkList" : false,
+                "title" : "Matrices",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "05931459-0D07-494A-B1EA-3E41DE929FA1-4160-00001D81D28FA4EE",
+                    "checkList" : false,
+                    "title" : "2D Tensors",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "A7C556D0-82B4-4CB9-8B53-430DCBB4B8CF-4160-00001D8430903B6C",
+                    "checkList" : false,
+                    "title" : "Two-dimensional",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "37017BDF-B8D9-4B98-85A5-24E01E47B4D6-4160-00001D87D076F68F",
+                "checkList" : false,
+                "title" : "3D Tensors and Higher-dimensional tensors",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "1DFE74D1-2018-468C-A21A-2FCFBA187204-4160-00001D8DF09D80E2",
+                    "checkList" : false,
+                    "title" : "Usually 3D~5D",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "237A4A0F-ECDE-43B8-B983-1B2B792195F5-4160-00001D953ACDA4D5",
+            "checkList" : false,
+            "title" : "Attributes of Tensors",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "7EB9C420-0959-44C7-A246-6BAE9B8FDA1C-4160-00001D974FD300EA",
+                "checkList" : false,
+                "title" : "Number of axes",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "7D0237E3-AD04-4083-913C-1930826A300F-4160-00001D985233539B",
+                "checkList" : false,
+                "title" : "Shape",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "5CD13B05-4901-407E-AFFB-6EAE0007EA25-4160-00001D98F4929BCB",
+                "checkList" : false,
+                "title" : "Data type",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "D954B26D-C3A3-4CD1-8CA2-E763CB2E38B7-4160-00001D9A9809CA3E",
+                    "checkList" : false,
+                    "title" : "Either Integer or Double",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "EBA6A99B-6D8F-4249-8124-11E1C202AE66-4160-00001D9D5E14FA45",
+            "checkList" : false,
+            "title" : "Tensors Operation",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "CE43DFFC-B4DA-4494-B9F4-1283B9E3FDF6-4160-00001D9F30F47C7E",
+                "checkList" : false,
+                "title" : "Element-wise Operation",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "0E99DD09-D38E-43D7-A8C5-CBEC1B9A8CD6-4160-00001DA9D67FC2B7",
+                    "checkList" : false,
+                    "title" : "Apply independently to each entry in the tensors",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "827CB3B2-71CE-4E13-B5C8-E9BA12A3B222-4160-00001DA1883B47AC",
+                "checkList" : false,
+                "title" : "Tensor Dot",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "6DBCAF16-4C23-4C45-8B7B-062380A681E9-4160-00001DAFC6B474CD",
+                    "checkList" : false,
+                    "title" : "Combine entries in the input tensors",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "963D8687-C9DC-44FA-9009-C689002C2B6E-4160-00001DC210DC22F3",
+            "checkList" : false,
+            "title" : "Gradient",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "A14BD86E-D277-43C4-815B-D66744244429-4160-00001DCADFF8E241",
+                "checkList" : false,
+                "title" : "Gradient-based Optimization",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "B7CC86D8-2114-40D3-8595-C6ACFF38ED25-4160-00001DCD844445BA",
+                    "checkList" : false,
+                    "title" : "Naive Solution",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "subtopics" : [
+                      {
+                        "detach" : false,
+                        "style" : {
+                          "lineColor" : "{172, 215, 123, 1.00}",
+                          "fontName" : "Avenir Next",
+                          "fontStyle" : "normal",
+                          "fontWeight" : "normal",
+                          "fontFamily" : "Avenir Next",
+                          "enablePalette" : true
+                        },
+                        "folded" : false,
+                        "id" : "900BB9F8-03D8-49B8-BF28-82966027C69A-4160-00001DD2FC3F7D81",
+                        "checkList" : false,
+                        "title" : "Freeze all weights and try one scalar coefficient one time at a time",
+                        "position" : "{0, 0}",
+                        "note" : {
+
+                        },
+                        "highlight" : false,
+                        "checkboxStatus" : 0
+                      }
+                    ],
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "F2738EF3-431C-41F7-A73F-C632933A5BE6-4160-00001DDAABD77B59",
+                    "checkList" : false,
+                    "title" : "Better Solution",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "subtopics" : [
+                      {
+                        "detach" : false,
+                        "style" : {
+                          "lineColor" : "{172, 215, 123, 1.00}",
+                          "fontName" : "Avenir Next",
+                          "fontStyle" : "normal",
+                          "fontWeight" : "normal",
+                          "fontFamily" : "Avenir Next",
+                          "enablePalette" : true
+                        },
+                        "folded" : false,
+                        "id" : "B41BAF5F-36BF-4ED0-9464-09FE2B76D197-4160-00001DE1BFA4ED31",
+                        "checkList" : false,
+                        "title" : "Compute the gradient of the loss with regard to the network’s coefficients",
+                        "position" : "{0, 0}",
+                        "note" : {
+
+                        },
+                        "highlight" : false,
+                        "checkboxStatus" : 0
+                      }
+                    ],
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "D20A78C6-C8E6-4D15-AB37-B4C6ADE8A187-4160-00001DE7E83275C1",
+                "checkList" : false,
+                "title" : "Stochastic Gradient Descent",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "08FDB401-447F-481C-83CD-8738BAAB1D6D-4160-00001DEFB215F46E",
+                    "checkList" : false,
+                    "title" : "The minimum of a differentiable function is where derivative is 0",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "33972C58-7A95-46F1-8CD4-3BFEE2814904-4160-00001DF8BB51B11C",
+                    "checkList" : false,
+                    "title" : "Find the combination of weight values that yields the smallest possible loss function",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "C0D31BF0-728C-4D3E-A93B-C9D25083CD73-4160-00001E003C0A01B9",
+            "checkList" : false,
+            "title" : "Backpropagation",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "18D287CD-371B-4EE8-9635-BF93DA8DE4C1-4160-00001E0A98F804D7",
+                "checkList" : false,
+                "title" : "Start with the final loss value and works backward",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          }
+        ],
+        "checkboxStatus" : 0
+      },
+      {
+        "detach" : false,
+        "style" : {
+          "lineColor" : "{172, 215, 123, 1.00}",
+          "fontName" : "Avenir Next",
+          "fontStyle" : "normal",
+          "fontWeight" : "normal",
+          "fontFamily" : "Avenir Next",
+          "enablePalette" : true
+        },
+        "folded" : false,
+        "id" : "E2CB74BB-1E5A-4B13-93EB-8A959E9B18FC-4160-00001D06EA0319F5",
+        "checkList" : false,
+        "title" : "Chapter #3",
+        "position" : "{0, 0}",
+        "note" : {
+
+        },
+        "highlight" : false,
+        "subtopics" : [
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "2C0644C1-0A90-4FC4-9FE9-2F5038DF7332-4160-00001E1B148E3E26",
+            "checkList" : false,
+            "title" : "Layers",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "28E2E609-FB1A-4AF7-837D-E5010DCC0C47-4160-00001E1D2968A637",
+                "checkList" : false,
+                "title" : "A data-processing module",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "C09AD674-5FB0-4C55-AB5D-EBC4EED89A84-4160-00001E1F16D61031",
+                "checkList" : false,
+                "title" : "Layers have weights; one or several tensors learned with stochastic gradient descent, which together contain the network’s knowledge",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "30A3AF29-4BD3-43F1-9639-A591E3BAB2C8-4160-00001E2497C9B76A",
+                "checkList" : false,
+                "title" : "Different layers process different data",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "8BB8626F-A4FF-423F-84C3-88F5D3FACCD1-4160-00001E36B4AC2295",
+                    "checkList" : false,
+                    "title" : "Densely Connected Layers",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "subtopics" : [
+                      {
+                        "detach" : false,
+                        "style" : {
+                          "lineColor" : "{172, 215, 123, 1.00}",
+                          "fontName" : "Avenir Next",
+                          "fontStyle" : "normal",
+                          "fontWeight" : "normal",
+                          "fontFamily" : "Avenir Next",
+                          "enablePalette" : true
+                        },
+                        "folded" : false,
+                        "id" : "1C584C55-84C7-4698-9F58-9C4BE7354320-4160-00001E39EA09AF20",
+                        "checkList" : false,
+                        "title" : "Simple vector data; 2D tensors",
+                        "position" : "{0, 0}",
+                        "note" : {
+
+                        },
+                        "highlight" : false,
+                        "checkboxStatus" : 0
+                      }
+                    ],
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "F49097C6-D7B2-43C3-B95A-A39528D3FF57-4160-00001E3CA8113D7A",
+                    "checkList" : false,
+                    "title" : "Recurrent Layers",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "subtopics" : [
+                      {
+                        "detach" : false,
+                        "style" : {
+                          "lineColor" : "{172, 215, 123, 1.00}",
+                          "fontName" : "Avenir Next",
+                          "fontStyle" : "normal",
+                          "fontWeight" : "normal",
+                          "fontFamily" : "Avenir Next",
+                          "enablePalette" : true
+                        },
+                        "folded" : false,
+                        "id" : "03ACC543-412B-4632-B1BD-37DA643EE1CD-4160-00001E3FC56EBDD6",
+                        "checkList" : false,
+                        "title" : "Sequence data; 3D tensors",
+                        "position" : "{0, 0}",
+                        "note" : {
+
+                        },
+                        "highlight" : false,
+                        "checkboxStatus" : 0
+                      }
+                    ],
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "4B2A04C9-2305-4453-A26A-E62C1C28DE00-4160-00001E447EB595B9",
+                    "checkList" : false,
+                    "title" : "Convolution Layers",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "subtopics" : [
+                      {
+                        "detach" : false,
+                        "style" : {
+                          "lineColor" : "{172, 215, 123, 1.00}",
+                          "fontName" : "Avenir Next",
+                          "fontStyle" : "normal",
+                          "fontWeight" : "normal",
+                          "fontFamily" : "Avenir Next",
+                          "enablePalette" : true
+                        },
+                        "folded" : false,
+                        "id" : "E39A79D7-5956-497A-B735-038BEB199E16-4160-00001E4733385BCF",
+                        "checkList" : false,
+                        "title" : "Image data; 4D tensors",
+                        "position" : "{0, 0}",
+                        "note" : {
+
+                        },
+                        "highlight" : false,
+                        "checkboxStatus" : 0
+                      }
+                    ],
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "1553EB97-3E35-4E5E-A463-4530BF52C21E-4160-00001E4CE01EBB04",
+            "checkList" : false,
+            "title" : "Networks of Layers",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "A5D03EAE-436C-48FD-8093-B60A1D5A0AAA-4160-00001E4E962C161D",
+                "checkList" : false,
+                "title" : "The topology of a network defines a hypothesis space",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "0FAEC4A7-BBD7-44A2-9B19-0ADBA2E38DF2-4160-00001E57582D1B23",
+            "checkList" : false,
+            "title" : "Loss Function (Objective function)",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "E959A5AB-A927-4A97-BA97-2FAADF5F3951-4160-00001E5B35E1616A",
+                "checkList" : false,
+                "title" : "The quantity that will be minimized during training",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "0A09A5E2-C30C-4DB4-AA7A-D77712B0B447-4160-00001E60A1BE02AB",
+                "checkList" : false,
+                "title" : "Multiple outputs may have multiple loss function",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "8355148D-1309-4BB4-A876-5C70E21DE657-4160-00001E63A330F35A",
+                "checkList" : false,
+                "title" : "All loses are combined (via averaging) into a single scalar quantity",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "A9BCC0C0-A7CA-4744-B0A3-D9513AAC8A72-4160-00001E6B8248577A",
+                "checkList" : false,
+                "title" : "Types of Objective Function",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "82744937-2FBD-4E43-84BB-4AD6DBA27D26-4160-00001E6F61049FCE",
+                    "checkList" : false,
+                    "title" : "Binary crossentropy",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "subtopics" : [
+                      {
+                        "detach" : false,
+                        "style" : {
+                          "lineColor" : "{172, 215, 123, 1.00}",
+                          "fontName" : "Avenir Next",
+                          "fontStyle" : "normal",
+                          "fontWeight" : "normal",
+                          "fontFamily" : "Avenir Next",
+                          "enablePalette" : true
+                        },
+                        "folded" : false,
+                        "id" : "0BC48B89-F3B7-46BE-80C1-F42BC1FEE5BA-4160-00001E71AB547B89",
+                        "checkList" : false,
+                        "title" : "Two-class classification",
+                        "position" : "{0, 0}",
+                        "note" : {
+
+                        },
+                        "highlight" : false,
+                        "checkboxStatus" : 0
+                      }
+                    ],
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "3F11CED8-5A58-46E4-ACA9-8C68E4D41749-4160-00001E745538E156",
+                    "checkList" : false,
+                    "title" : "Categorical crossentropy",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "subtopics" : [
+                      {
+                        "detach" : false,
+                        "style" : {
+                          "lineColor" : "{172, 215, 123, 1.00}",
+                          "fontName" : "Avenir Next",
+                          "fontStyle" : "normal",
+                          "fontWeight" : "normal",
+                          "fontFamily" : "Avenir Next",
+                          "enablePalette" : true
+                        },
+                        "folded" : false,
+                        "id" : "A37DC786-E504-4655-A8AA-BD6471DDFA30-4160-00001E765E1FA108",
+                        "checkList" : false,
+                        "title" : "Multi-class classification",
+                        "position" : "{0, 0}",
+                        "note" : {
+
+                        },
+                        "highlight" : false,
+                        "checkboxStatus" : 0
+                      }
+                    ],
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "438C5924-EBF3-4446-A9FA-BDBB211F2A7F-4160-00001E795CFC4791",
+                    "checkList" : false,
+                    "title" : "Mean-squared error",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "subtopics" : [
+                      {
+                        "detach" : false,
+                        "style" : {
+                          "lineColor" : "{172, 215, 123, 1.00}",
+                          "fontName" : "Avenir Next",
+                          "fontStyle" : "normal",
+                          "fontWeight" : "normal",
+                          "fontFamily" : "Avenir Next",
+                          "enablePalette" : true
+                        },
+                        "folded" : false,
+                        "id" : "60451675-4762-4563-A3CD-1882B313C1F0-4160-00001E7B9ECA8F78",
+                        "checkList" : false,
+                        "title" : "Regression",
+                        "position" : "{0, 0}",
+                        "note" : {
+
+                        },
+                        "highlight" : false,
+                        "checkboxStatus" : 0
+                      }
+                    ],
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "8065D116-8796-4047-B1FD-7580731D842C-4160-00001E7FE3D84D3A",
+                    "checkList" : false,
+                    "title" : "Connectionist temporal classification",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "subtopics" : [
+                      {
+                        "detach" : false,
+                        "style" : {
+                          "lineColor" : "{172, 215, 123, 1.00}",
+                          "fontName" : "Avenir Next",
+                          "fontStyle" : "normal",
+                          "fontWeight" : "normal",
+                          "fontFamily" : "Avenir Next",
+                          "enablePalette" : true
+                        },
+                        "folded" : false,
+                        "id" : "390F8D06-ECBC-4D65-BED2-5F5C8651C10E-4160-00001E82FF69AB9C",
+                        "checkList" : false,
+                        "title" : "Sequence-learning",
+                        "position" : "{0, 0}",
+                        "note" : {
+
+                        },
+                        "highlight" : false,
+                        "checkboxStatus" : 0
+                      }
+                    ],
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          }
+        ],
+        "checkboxStatus" : 0
+      },
+      {
+        "detach" : false,
+        "style" : {
+          "lineColor" : "{172, 215, 123, 1.00}",
+          "fontName" : "Avenir Next",
+          "fontStyle" : "normal",
+          "fontWeight" : "normal",
+          "fontFamily" : "Avenir Next",
+          "enablePalette" : true
+        },
+        "folded" : false,
+        "id" : "8504B6B1-9F5C-4F96-9CAA-422F0B23DE9F-4160-00001D08D0C75BEB",
+        "checkList" : false,
+        "title" : "Chapter #4",
+        "position" : "{0, 0}",
+        "note" : {
+
+        },
+        "highlight" : false,
+        "subtopics" : [
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "E54EFFAF-E38B-4A04-966B-737764F8883D-4160-00001E8D1B45D38E",
+            "checkList" : false,
+            "title" : "Four Branches of Machine Learning",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "E7BEC649-4513-47A2-A066-6825F5141474-4160-00001E9102C81F93",
+                "checkList" : false,
+                "title" : "Supervised",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "1CE4C9D9-EDA7-4374-B9A1-FB177591EDCA-4160-00001E922ECCE3B8",
+                "checkList" : false,
+                "title" : "Unsupervised",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "9298D9CE-5B66-42D2-AE61-4F8C2001D009-4160-00001E92F22454FB",
+                "checkList" : false,
+                "title" : "Self-supervised",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "F17B1E85-A475-4A6E-ACE5-041915492286-4160-00001E941332E33D",
+                "checkList" : false,
+                "title" : "Reinforcement",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "F1EE4872-4CE4-4545-BF09-539B056D813F-4160-00001E96F266EA4F",
+            "checkList" : false,
+            "title" : "Data preprocessing for neural networks",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "D698FEE9-A107-42F8-881E-8CDE5F8CFA0E-4160-00001E99C4245A8D",
+                "checkList" : false,
+                "title" : "Vectorization",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "ECABE030-529F-499F-98BF-04D0C6BC5F58-4160-00001E9BEDDE7E70",
+                "checkList" : false,
+                "title" : "Normalization",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "A6FF543F-41B8-41A3-B24D-4A9AA229D4D6-4160-00001E9D5B368B76",
+                "checkList" : false,
+                "title" : "Missing values",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "6E27CBF5-FD53-49A9-AE5D-DE9F3B513229-4160-00001E9F2733C1B4",
+            "checkList" : false,
+            "title" : "Feature Engineering",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "00F4CD00-3966-401F-A5A5-C5A0C21BB382-4160-00001EA27FB5D386",
+                "checkList" : false,
+                "title" : "Make a problem easier by expressing it in a simple way",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "48D86168-081F-4AF3-94D8-9332675BC3BF-4160-00001EA753D390EF",
+                "checkList" : false,
+                "title" : "Good features allow you to solve problems more elegantly while using fewer resources",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "C3303346-45C9-4A40-9B6C-240E721FE854-4160-00001EAF7CD45662",
+                "checkList" : false,
+                "title" : "Good features let you solve problems with for less data",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "FE009B92-882A-4591-A228-B710E18EB216-4160-00001EB470565C5B",
+            "checkList" : false,
+            "title" : "Overfitting and Underfitting",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "BC662CDA-3E03-44A1-92E4-B675451CB89C-4160-00001EB7E97D0F65",
+                "checkList" : false,
+                "title" : "Optimization",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "D2D44235-2517-4B5D-A1D5-5A427F7C7D96-4160-00001EB992AD6756",
+                    "checkList" : false,
+                    "title" : "Get best performance on training data",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "18AC7B13-7AF1-4CE6-BF89-3003BA1374B5-4160-00001EBB95010537",
+                "checkList" : false,
+                "title" : "Generalization",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "C679A2DD-3D30-46FC-9570-EBC6D18F2BC4-4160-00001EBD4905DA24",
+                    "checkList" : false,
+                    "title" : "How well the model performs on data it has never seen",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "D7EC9529-428D-4130-A449-B3C2B09C1EDC-4160-00001EC9AB18E707",
+                "checkList" : false,
+                "title" : "Solutions",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "DB4B6E5B-7932-4C2C-9495-EBB0B322DDD5-4160-00001ECC6154A045",
+                    "checkList" : false,
+                    "title" : "More data",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "F87F08E1-3077-4845-9CE8-8F12F77F2F46-4160-00001ECD2344BF4F",
+                    "checkList" : false,
+                    "title" : "Modulate the quantity of information that your model is allowed to store",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "F4A69420-9221-4720-AABA-196D11C474D2-4160-00001ED20E0DA086",
+                    "checkList" : false,
+                    "title" : "Add constraints on what information is allowed to store",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "5AA4F69B-905B-498F-91DE-15EC1F75482D-4160-00001ED71A7E3141",
+                "checkList" : false,
+                "title" : "Regularization",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "0AB8BF3C-F7AC-4195-9D17-8B830770C0D3-4160-00001EE10B159FA2",
+                    "checkList" : false,
+                    "title" : "Reduce size",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "3E62E10B-E01D-41FC-BF1D-5B0742853594-4160-00001EE1DE6C7D9B",
+                    "checkList" : false,
+                    "title" : "L1",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "subtopics" : [
+                      {
+                        "detach" : false,
+                        "style" : {
+                          "lineColor" : "{172, 215, 123, 1.00}",
+                          "fontName" : "Avenir Next",
+                          "fontStyle" : "normal",
+                          "fontWeight" : "normal",
+                          "fontFamily" : "Avenir Next",
+                          "enablePalette" : true
+                        },
+                        "folded" : false,
+                        "id" : "14AEA4CD-C8E3-4962-9ACC-E8701E8FAC86-4160-00001EE3142581C2",
+                        "checkList" : false,
+                        "title" : "The cost added is proportional to the absolute value of the weight coefficients",
+                        "position" : "{0, 0}",
+                        "note" : {
+
+                        },
+                        "highlight" : false,
+                        "checkboxStatus" : 0
+                      }
+                    ],
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "3CFD1AD4-070E-475A-8F27-018CBA14898E-4160-00001EF732BCB655",
+                    "checkList" : false,
+                    "title" : "L2",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "subtopics" : [
+                      {
+                        "detach" : false,
+                        "style" : {
+                          "lineColor" : "{172, 215, 123, 1.00}",
+                          "fontName" : "Avenir Next",
+                          "fontStyle" : "normal",
+                          "fontWeight" : "normal",
+                          "fontFamily" : "Avenir Next",
+                          "enablePalette" : true
+                        },
+                        "folded" : false,
+                        "id" : "A1322786-7BC4-4AEF-93ED-B720C6AEFD2F-4160-00001EF7B8146F81",
+                        "checkList" : false,
+                        "title" : "The cost added is proportional to the saure value of the weight coefficients",
+                        "position" : "{0, 0}",
+                        "note" : {
+
+                        },
+                        "highlight" : false,
+                        "checkboxStatus" : 0
+                      }
+                    ],
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "8D3DCF6C-49A9-4E72-8681-FD9B72FC05BE-4160-00001F019AA13602",
+                    "checkList" : false,
+                    "title" : "Add dropout",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          }
+        ],
+        "checkboxStatus" : 0
+      },
+      {
+        "detach" : false,
+        "style" : {
+          "lineColor" : "{172, 215, 123, 1.00}",
+          "fontName" : "Avenir Next",
+          "fontStyle" : "normal",
+          "fontWeight" : "normal",
+          "fontFamily" : "Avenir Next",
+          "enablePalette" : true
+        },
+        "folded" : false,
+        "id" : "8F741908-70AC-4FA4-A156-2953D3C4F38F-1080-0000094AFCAB8F1B",
+        "checkList" : false,
+        "title" : "Chapter #5",
+        "position" : "{0, 0}",
+        "note" : {
+
+        },
+        "highlight" : false,
+        "subtopics" : [
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "0160B7A9-715E-41C3-9A01-BC8BE698FC8A-1080-0000095ADCD564E7",
+            "checkList" : false,
+            "title" : "Convnets",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "4C3C4C75-4F63-4631-B817-1BDC5BA1C066-1080-00000962F264F7DF",
+                "checkList" : false,
+                "title" : "A stck of layer_conv_2D and layer_max_pooling_2d",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "D866637D-C514-4551-93FB-C631EF0943C1-1080-00000969A51AD53F",
+                "checkList" : false,
+                "title" : "A convet takes as input tensors of shape",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "0EF8B3C8-F01E-415B-9F9C-679F9A1D4B43-1080-0000095E03C71C20",
+            "checkList" : false,
+            "title" : "Convolutional Operation",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "F3AE2212-EECD-427F-97C5-BC1B39A5C152-1080-0000096FC8AF400A",
+                "checkList" : false,
+                "title" : "Learn local patterns",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "0DA2530A-B8CB-4314-98A3-DB7A35573D95-1080-0000098F3DFDBB8F",
+                "checkList" : false,
+                "title" : "Feature Maps",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "DA8A6AD4-3277-4407-ABD5-C93AE217F4F7-1080-00000990D199F129",
+                    "checkList" : false,
+                    "title" : "3D tensors",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "5809526C-5C37-4B74-812D-55E1700307A1-1080-00000995EDA868A7",
+            "checkList" : false,
+            "title" : "Mat-pooling Operation",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "B58633CF-5F43-4773-9998-FC718640AD5B-1080-00000998C34DBD30",
+                "checkList" : false,
+                "title" : "Aggressively downsample feature maps",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "40D3F531-0EF4-430B-BA2A-3AE0629CE090-1080-000009A06A70B550",
+            "checkList" : false,
+            "title" : "Lots of data for DL is relative",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "4F5E3E8A-8128-4EF7-8521-CF497B452684-1080-000009A5620B42B7",
+            "checkList" : false,
+            "title" : "Data Augmentation",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "ECF089A7-BA28-473A-B674-71630D08C13A-1080-000009A7838753C7",
+                "checkList" : false,
+                "title" : "Generate more training data from existing training samples",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "CCCA1CA6-1704-4A77-96BB-14C81497410D-1080-000009AE92D3C130",
+            "checkList" : false,
+            "title" : "Using A Retrained Convnet",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "E9E58610-7482-4448-B866-52BD1F1911A3-1080-000009B40854CEFF",
+                "checkList" : false,
+                "title" : "Feature Extraction",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "398E831C-1803-4592-A59D-8FC98AD1107D-1080-000009B7B1CB40E1",
+                    "checkList" : false,
+                    "title" : "On Convolutional Base",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "982956A2-18D9-421B-8C43-7FEB6C77F174-1080-000009BEF95D81D4",
+                    "checkList" : false,
+                    "title" : "More likely to be generic",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "A3E1EA53-3C24-4A82-9F0F-4260A85EBC20-1080-000009C84182EAD0",
+                    "checkList" : false,
+                    "title" : "Freeze the conlutional base",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "subtopics" : [
+                      {
+                        "detach" : false,
+                        "style" : {
+                          "lineColor" : "{172, 215, 123, 1.00}",
+                          "fontName" : "Avenir Next",
+                          "fontStyle" : "normal",
+                          "fontWeight" : "normal",
+                          "fontFamily" : "Avenir Next",
+                          "enablePalette" : true
+                        },
+                        "folded" : false,
+                        "id" : "697A76D6-D606-48C3-B795-232F256B17FA-1080-000009CC222AF40A",
+                        "checkList" : false,
+                        "title" : "Prevent weights from being modified",
+                        "position" : "{0, 0}",
+                        "note" : {
+
+                        },
+                        "highlight" : false,
+                        "checkboxStatus" : 0
+                      }
+                    ],
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "4FE450FA-B080-48C6-A984-E9AA153BCE30-1080-000009D4B2546FF3",
+                "checkList" : false,
+                "title" : "Fine-tuning",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "D48BD589-17DE-429A-B0D3-3EA8BFC50A92-1080-000009D650C7146A",
+                    "checkList" : false,
+                    "title" : "Unfreeze the conlutional base",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "subtopics" : [
+                      {
+                        "detach" : false,
+                        "style" : {
+                          "lineColor" : "{172, 215, 123, 1.00}",
+                          "fontName" : "Avenir Next",
+                          "fontStyle" : "normal",
+                          "fontWeight" : "normal",
+                          "fontFamily" : "Avenir Next",
+                          "enablePalette" : true
+                        },
+                        "folded" : false,
+                        "id" : "92376460-305B-40A4-AE89-B9E10BD8CE53-1080-000009D9AEA07000",
+                        "checkList" : false,
+                        "title" : "Unfreeze a few of the top layers and jointly training both the newly added part of the model and these top layers",
+                        "position" : "{0, 0}",
+                        "note" : {
+
+                        },
+                        "highlight" : false,
+                        "checkboxStatus" : 0
+                      },
+                      {
+                        "detach" : false,
+                        "style" : {
+                          "lineColor" : "{172, 215, 123, 1.00}",
+                          "fontName" : "Avenir Next",
+                          "fontStyle" : "normal",
+                          "fontWeight" : "normal",
+                          "fontFamily" : "Avenir Next",
+                          "enablePalette" : true
+                        },
+                        "folded" : false,
+                        "id" : "2981E995-3D89-4F53-8FE0-B99B36434093-1080-000009E478B9ACEA",
+                        "checkList" : false,
+                        "title" : "Slightly adjust the more abstract representation in order to make them more relevant for the problem",
+                        "position" : "{0, 0}",
+                        "note" : {
+
+                        },
+                        "highlight" : false,
+                        "checkboxStatus" : 0
+                      }
+                    ],
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          }
+        ],
+        "checkboxStatus" : 0
+      },
+      {
+        "detach" : false,
+        "style" : {
+          "lineColor" : "{172, 215, 123, 1.00}",
+          "fontName" : "Avenir Next",
+          "fontStyle" : "normal",
+          "fontWeight" : "normal",
+          "fontFamily" : "Avenir Next",
+          "enablePalette" : true
+        },
+        "folded" : false,
+        "id" : "B7B5316F-FE25-4DF1-8959-998BDD7F91E7-1080-0000116021917BE2",
+        "checkList" : false,
+        "title" : "Chapter #6",
+        "position" : "{0, 0}",
+        "note" : {
+
+        },
+        "highlight" : false,
+        "subtopics" : [
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "37EADE89-E44F-4D4C-8549-A84176CB41E3-3010-00000CAA88C1DF2A",
+            "checkList" : false,
+            "title" : "Text Data",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "0EFE27DE-D714-4850-81BE-40C07FE4679A-3010-00000F1952B8B6DF",
+                "checkList" : false,
+                "title" : "Map the statistical structure of written language",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "EC0E4D58-B7FA-4E2C-93C2-BB869F0A0AC6-3010-00000F1DC3422EF5",
+                "checkList" : false,
+                "title" : "Only work with numeric tensors",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "6F4F6CE6-F866-45AA-AFEF-B1C3CE49AE3B-3010-00000F242F8FC034",
+            "checkList" : false,
+            "title" : "Vectorizing",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "D429C4D8-D065-49D1-9E71-4C7FB2487861-3010-00000F30EF5F542A",
+                "checkList" : false,
+                "title" : "Segment into words, and transform each word into a vector",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "DA41108D-F49A-49A8-83AF-F1FF1E3B10B9-3010-00000F3528248758",
+                "checkList" : false,
+                "title" : "Segment text into characters and transform each character into a vector",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "8DC8136D-1CBA-43FE-8A01-11EF2106D9BB-3010-00000F39DA6F7069",
+                "checkList" : false,
+                "title" : "Extract n-grams of words or characters and transform each n-gram into a vector",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "099D4A13-E485-4F19-97FE-B669A85E264F-3010-00000F41539C1DC7",
+            "checkList" : false,
+            "title" : "Tokens",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "5B124E4A-4171-4571-BA55-4576503DC77B-3010-00000F46168D51DB",
+                "checkList" : false,
+                "title" : "The different units into which you can break down text, words, characters, or n-grams",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "76A50782-2F33-4BC8-A5AF-20CC48660E19-3010-00000F5073013885",
+            "checkList" : false,
+            "title" : "Pack vector into sequence tensors and feed into deep neural network",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "F0E98F28-CE62-4E90-99D1-5AE0F0D2CD42-3010-00000F5820AA16F2",
+                "checkList" : false,
+                "title" : "One-hot encoding ot tokens",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "679518E9-DE7B-4FD9-A964-ED2FFF7EEEC5-3010-00000F9D932BC511",
+                    "checkList" : false,
+                    "title" : "Most basic, most common way to turn a token into a vector",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "93F22E1F-6AEF-4CCF-99D3-6DDD30E61D3D-3010-00000F5AC937D542",
+                "checkList" : false,
+                "title" : "Token embedding",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "4C5463C2-A7DA-4373-96BE-123E24FAC766-3010-00000FA59F49C14A",
+                    "checkList" : false,
+                    "title" : "Use of dense word vectors",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "5879BDF4-B8BE-40CC-B484-EB3FE4548ED0-3010-00000FA8E4604881",
+                    "checkList" : false,
+                    "title" : "Low dimensional floating-point vectors",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "8108EF7F-6813-4CFF-847D-79DFAFF8753D-3010-00000F6E0D6DA5ED",
+            "checkList" : false,
+            "title" : "n-gram vs. bag-of-words",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "E2776772-5A44-43EF-92AB-AA5908BAA8AA-3010-00000F7854F112B6",
+                "checkList" : false,
+                "title" : "n-gram",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "32EE6AA0-523B-4D65-A57B-BAF3380331D2-3010-00000F724CB871F0",
+                    "checkList" : false,
+                    "title" : "word n-grams are groups of N consecutive words that you extract from a sentence",
+                    "position" : "{-1258.5302858528037, 997.5625}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "D5EECA95-FD53-4BC3-8CC9-26B899A42783-3010-00000F8250BBEC96",
+                "checkList" : false,
+                "title" : "bag-of-words",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "9E274654-9CE6-426C-B6FE-9434B752A526-3010-00000F88A934B2B7",
+                    "checkList" : false,
+                    "title" : "Dealing with a set of tokens rather than a list or sequence",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "3DCFE974-7D00-4B07-940B-19041A319438-3010-00000F9224A4A53B",
+                    "checkList" : false,
+                    "title" : "Have no specific order",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "5862AD8F-5704-4CAC-802B-E7C060F433A3-3010-00000F959F547759",
+                    "checkList" : false,
+                    "title" : "Tend to be used in shallow language-processing models",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "0C909AB4-402F-40D2-80B1-07C4AA1897E5-3010-00000FB3876D6EDA",
+            "checkList" : false,
+            "title" : "Using Pretrained Word Embeddings",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "checkboxStatus" : 0
+          },
+          {
+            "detach" : false,
+            "style" : {
+              "lineColor" : "{172, 215, 123, 1.00}",
+              "fontName" : "Avenir Next",
+              "fontStyle" : "normal",
+              "fontWeight" : "normal",
+              "fontFamily" : "Avenir Next",
+              "enablePalette" : true
+            },
+            "folded" : false,
+            "id" : "C56910FC-F024-4422-A694-1EF81266546B-5115-000014D52A9DCBF8",
+            "checkList" : false,
+            "title" : "Recurrent Network",
+            "position" : "{0, 0}",
+            "note" : {
+
+            },
+            "highlight" : false,
+            "subtopics" : [
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "05D4DCE1-D41C-491D-A90F-35F1ED458EF4-5115-000014E2332F5EC5",
+                "checkList" : false,
+                "title" : "RNN is a for loop that reuses quantities computed during the previous iteration of the loop",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "D818893E-CE35-46EE-BC92-4C1031547A81-5115-000014EB54AD8B00",
+                    "checkList" : false,
+                    "title" : "Simple RNN",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "A6B8EADE-2502-4108-AB7D-87E104F2629C-5115-000014ECB587821F",
+                    "checkList" : false,
+                    "title" : "LSTM",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "D900CDFE-8F61-450E-B5E3-5AAF838ADDF6-5115-000014EF27440BC8",
+                    "checkList" : false,
+                    "title" : "GRU",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "086962B6-BCF6-4E43-AFC8-67EE5FDF5FEB-5115-000014FDC4CBA19E",
+                "checkList" : false,
+                "title" : "Advanced Usage",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "subtopics" : [
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "03DBC268-DD49-4AE6-A394-B1642D917E17-5115-00001500A8A53E2D",
+                    "checkList" : false,
+                    "title" : "Recurrent Dropout",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "17609EF6-D692-42BD-9AE4-2478DB85BF6B-5115-00001501AE716DAE",
+                    "checkList" : false,
+                    "title" : "Stacking Recurrent",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  },
+                  {
+                    "detach" : false,
+                    "style" : {
+                      "lineColor" : "{172, 215, 123, 1.00}",
+                      "fontName" : "Avenir Next",
+                      "fontStyle" : "normal",
+                      "fontWeight" : "normal",
+                      "fontFamily" : "Avenir Next",
+                      "enablePalette" : true
+                    },
+                    "folded" : false,
+                    "id" : "FD240AB7-8D23-483F-BD7A-BD8EF9F3686D-5115-00001502A5D01476",
+                    "checkList" : false,
+                    "title" : "Bidirectional Recurrent",
+                    "position" : "{0, 0}",
+                    "note" : {
+
+                    },
+                    "highlight" : false,
+                    "checkboxStatus" : 0
+                  }
+                ],
+                "checkboxStatus" : 0
+              },
+              {
+                "detach" : false,
+                "style" : {
+                  "lineColor" : "{172, 215, 123, 1.00}",
+                  "fontName" : "Avenir Next",
+                  "fontStyle" : "normal",
+                  "fontWeight" : "normal",
+                  "fontFamily" : "Avenir Next",
+                  "enablePalette" : true
+                },
+                "folded" : false,
+                "id" : "38EE7D66-F608-428D-A6C1-7A205722BCD7-5115-0000150871FE715F",
+                "checkList" : false,
+                "title" : "1D Convolution",
+                "position" : "{0, 0}",
+                "note" : {
+
+                },
+                "highlight" : false,
+                "checkboxStatus" : 0
+              }
+            ],
+            "checkboxStatus" : 0
+          }
+        ],
+        "checkboxStatus" : 0
+      }
+    ],
+    "checkboxStatus" : 0
+  },
+  "createTime" : 1566848184.2704711,
+  "mapName" : ""
+}
