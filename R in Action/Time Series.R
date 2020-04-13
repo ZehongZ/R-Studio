@@ -1,6 +1,7 @@
 #Creating a time-series object
-sales<-c(18,33,41,7,34,35,24,25,24,21,25,20,22,31,40,29,25,21,22,54,31,25,26,35)
-tsales<-ts(sales, start=c(2003,1),frequency = 12)
+sales<-c(18,33,41,7,34,35,24,25,24,21,25,20,
+         22,31,40,29,25,21,22,54,31,25,26,35)
+tsales<-ts(sales, start=c(2003,1), frequency = 12)
 tsales
 plot(tsales)
 start(tsales)
@@ -9,70 +10,64 @@ frequency(tsales)
 tsales.subset<-window(tsales, start=c(2003,5),end=c(2004,6))
 tsales.subset
 
-#Smoothing a time series to clarify its general trend
-#Decomposing a time series in order to observe any seasional effects
-
-#Simple moving average
+#Simple Moving Average
 library(forecast)
-opar<-(par(no.readonly = TRUE))
+opar<-par(no.readonly = TRUE)
 par(mfrow=c(2,2))
-ylim<-c(min(Nile), max(Nile))
-plot(Nile, main= "Raw time series")
-plot(ma(Nile,3), main="Simple Moving Averages (k=3)", ylim=ylim)
-plot(ma(Nile,7), main="Simple Moving Averages (k=7)", ylim=ylim)
-plot(ma(Nile, 15), main="Simple Moving Averages (k=15)", ylim=ylim)
+ylim<-c(min(Nile),max(Nile))
+plot(Nile, main="Raw time series")
+plot(ma(Nile,3),main="Simple Moving Average (k=3)", ylim=ylim)
+plot(ma(Nile,7),main="Simple Moving Average (k=7)", ylim=ylim)
+plot(ma(Nile, 15), main="Simple Moving Average (k=15",ylim=ylim)
 par(opar)
-#As k increases, the plot becomes increasingly smoothed.
-#The challenge is to find the value of k that highlights the major patterns in the data, without under or over smoothing
-
-#Seasonal decomposition
-#Time-series data that have a seasonal aspect (such as monthly or quarterly data) can be decomposed into a trend component, a seasonal component, and an irregular component. 
-#The trend component captures changes in level over time.
-#The seasonal com- ponent captures cyclical effects due to the time of year. 
-#The irregular (or error) component captures those influences not described by the trend and seasonal effects.
 
 #Seasonal decomposition using stl()
 plot(AirPassengers)
 lAirPassengers<-log(AirPassengers)
 plot(lAirPassengers, ylab="log(AirPassengers")
-fit<-stl(lAirPassengers,s.window = "period")#Decompose the time series
+fit<-stl(lAirPassengers, s.window = "period")
 plot(fit)
 fit$time.series
 exp(fit$time.series)
-
 par(mfrow=c(2,1))
 library(forecast)
 monthplot(AirPassengers,xlab="",ylab="")
-seasonplot(AirPassengers,year.labels = "TURE", main="")
+seasonplot(AirPassengers, year.labels = "TRUE", main="")
 
-#Simple expoential smoothing
+#Simple exponential smoothing
 library(forecast)
 fit<-ets(nhtemp, model="ANN")
 fit
 forecast(fit,1)
+plot(forecast(fit,1),xlab="Year",
+     ylab=expression(paste("Temperature(",degree*F,")",)),
+     main="New Haven Annual Mean Temperature")
 accuracy(fit)
 
-#Exponential smoothing with level, slope and seasonal componnents
+#Exponential smoothing with level, slope and seasonal components
 library(forecast)
-fit<-ets(log(AirPassengers), model="AAA")
+fit<-ets(log(AirPassengers),model="AAA")
 fit
+accuracy(fit)
 pred<-forecast(fit,5)
 pred
+plot(pred, main="Forecast for Air Travel",
+    ylab = "Log(AirPassengers", xlab="Time")
 pred$mean<-exp(pred$mean)
 pred$lower<-exp(pred$lower)
 pred$upper<-exp(pred$upper)
 p<-cbind(pred$mean, pred$lower, pred$upper)
-dimnames(p)[[2]]<-c("mean", "Lo 80","Lo 95","Hi 80","Hi 95")
+dimnames(p)[[2]]<-c("mean","Lo 80", "Lo 95", "Hi 80", "Hi 95")
 p
 
-#Automatic exponential forecasting with ets()
+#Automatic exponetial forecasting with ets()
 library(forecast)
 fit<-ets(JohnsonJohnson)
 fit
+plot(forecast(fit), main="Johnson&Johnson Forecasts", 
+     ylab="Quaterly Earnings (Dollars)", xlab="Time", flty=2)
 
-#ARIMA forecasting models
-
-#Transforming the time serires and assessing stationarity
+#Transforming the time series and assessing stationarity
 library(forecast)
 library(tseries)
 plot(Nile)
@@ -80,8 +75,6 @@ ndiffs(Nile)
 dNile<-diff(Nile)
 plot(dNile)
 adf.test(dNile)
-Acf(dNile)
-pacf(dNile)
 
 #Fitting an ARIMA model
 library(forecast)
@@ -92,14 +85,14 @@ accuracy(fit)
 #Evaluating the model fit
 qqnorm(fit$residuals)
 qqline(fit$residuals)
-Box.test(fit$residuals, type="Ljung-Box")
+Box.test(fit$residuals,type = "Ljung-Box")
 
 #Forecasting with an ARIMA model
 forecast(fit,3)
-plot(forecast(fit,3), xlab="Year", ylab = "Annual Flow")
 
 #Automated ARIMA forecasting
 library(forecast)
 fit<-auto.arima(sunspots)
 fit
 forecast(fit,3)
+accuracy(fit)
